@@ -1,0 +1,19 @@
+@import "../../../../app.component.scss";
+
+.background {
+    border-radius: 0 !important ;
+    background-color: #F1536A;
+    background-size:cover;
+    color:white;
+    margin-top:-1em;
+}
+
+.heading{
+    color:white;
+}
+
+.custom {
+    color: white;
+    background: transparent !important;
+    border: solid white;
+}
