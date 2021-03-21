@@ -1,0 +1,33 @@
+@import "../../../../app.component.scss";
+
+.background {
+    border-radius: 0 !important ;
+    background:url(../../../../../assets/images/classes.jpg) no-repeat center;
+    background-size:cover;
+    color:white;
+    margin-top:-1em;
+}
+
+.heading{
+    color:white;
+}
+
+.custom {
+    color: white;
+    background: transparent !important;
+    border: solid white;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .button{
+    background: transparent;
+    border-style: solid thick !important;
+    border-color: #F0B27A;
+    color: #F0B27A;
+}

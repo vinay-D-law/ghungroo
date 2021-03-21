@@ -1,0 +1,27 @@
+@import '../../../../../styles.scss';
+
+.background {
+    border-radius: 0 !important ;
+    background: url(../../../../../assets/images/home.jpg) no-repeat center;
+    background-size:cover ;
+    color:white;
+    margin-bottom: 0% !important;
+}
+
+.heading{
+    color:#F0B27A;
+}
+
+.button{
+    background: transparent;
+    border-style: solid thick !important;
+    border-color: #F0B27A;
+    color: #F0B27A;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
