@@ -15,7 +15,7 @@ export class GalleryJistComponent implements OnInit {
 
   getAllVideos() {
     this.videos.push({url : 'https://www.youtube.com/embed/6-uxdvxMmJs'});
-    this.videos.push({url : 'https://www.youtube.com/embed/hJXFNuyEREU'});
+    this.videos.push({url : 'https://www.youtube.com/embed/PfVgyuQWt-o'});
     this.videos.push({url: 'https://www.youtube.com/embed/UR8PYV1QYlU'});
     console.log(this.videos);
   }

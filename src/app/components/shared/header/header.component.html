@@ -7,23 +7,20 @@
         <a class="navbar-brand brand" href="#">Ghungroo</a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" routerLink="/" fragment="backToTopBtn">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" routerLink="/" fragment="about">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Classes</a>
+                <a class="nav-link" routerLink="/" fragment="backToTopBtn">Classes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact-Us</a>
+                <a class="nav-link" routerLink="/" fragment="backToTopBtn">Gallery</a>
             </li>
         </ul>
         <form class="form-inline my-2 mr-3 my-lg-0">
-            <button class="btn btn-outline-light button my-2 my-sm-0" type="submit">Enroll</button>
+            <button class="btn btn-outline-light button my-2 my-sm-0" (click)="navigate()">Enroll</button>
         </form>
     </div>
 </nav>
