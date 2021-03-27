@@ -1,26 +1,29 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+    <a class="navbar-brand brand" href="#">Ghungroo</a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand brand" href="#">Ghungroo</a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" routerLink="/" fragment="backToTopBtn">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" routerLink="/" fragment="home">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" routerLink="/" fragment="about">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" routerLink="/" fragment="backToTopBtn">Classes</a>
+                <a class="nav-link" routerLink="/" fragment="classes">Classes</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" routerLink="/" fragment="backToTopBtn">Gallery</a>
+                <a class="nav-link" routerLink="/" fragment="gallery">Gallery</a>
             </li>
         </ul>
         <form class="form-inline my-2 mr-3 my-lg-0">
-            <button class="btn btn-outline-light button my-2 my-sm-0" (click)="navigate()">Enroll</button>
+            <button class="btn btn-outline-light button my-2 my-sm-0">
+                <a class="nav-link custom-link" routerLink="/" fragment="contact">Enroll</a>
+            </button>
         </form>
     </div>
 </nav>
+

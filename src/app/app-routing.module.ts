@@ -11,22 +11,6 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent
-  },
-  {
-    path: 'enroll',
-    component: ContactJistComponent
-  },
-  {
-    path: 'gallery',
-    component: GalleryJistComponent
-  },
-  {
-    path: 'about',
-    component: AboutJistComponent
-  },
-  {
-    path: 'classes',
-    component: ClassesJistComponent
   }
 ];
 
