@@ -6,16 +6,18 @@
     <a class="navbar-brand brand" href="#">Ghungroo</a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-                <a class="nav-link" routerLink="/" fragment="home">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" routerLink="/" fragment="home" data-bs-toggle="collapse"
+                    data-bs-target=".navbar-collapse.show">
+                    Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <a class="nav-link" routerLink="/" fragment="about">About Us</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <a class="nav-link" routerLink="/" fragment="classes">Classes</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <a class="nav-link" routerLink="/" fragment="gallery">Gallery</a>
             </li>
         </ul>
@@ -26,4 +28,3 @@
         </form>
     </div>
 </nav>
-

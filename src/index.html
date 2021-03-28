@@ -23,11 +23,17 @@
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
+      var elementTarget = document.getElementById("about");
+      if (window.scrollY > (elementTarget.offsetTop + elementTarget.offsetHeight)) {
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-100px";
+        }
       } else {
-        document.getElementById("navbar").style.top = "-100px";
+        document.getElementById("navbar").style.top = "0";
       }
+
       prevScrollpos = currentScrollPos;
     }
   </script>
